@@ -25,7 +25,7 @@ using namespace std;
 
 // Base Class: Person
 class Person {
-protected:
+private:
     string name;
 public:
     Person(string n) : name(n) {}
